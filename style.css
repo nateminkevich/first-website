@@ -1,0 +1,52 @@
+body {
+    font-family: 'Courier New', Courier, monospace, courier, monospace;
+    font-size: 18px;
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    padding-top: 60px;
+    text-align: center;
+}
+.title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.subheading {
+    font-style: italic;
+    color: gray;
+}
+line {
+    border-color: slateblue;
+    color: slateblue;
+    border-width: 2px;
+}
+button {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Courier New', Courier, monospace, courier, monospace;
+    font-style: bold;
+    border-radius: 15%;
+    border-color: black;
+}
+button:hover, a:hover {
+    color: black;
+
+
+}
+.button-group {
+display: flex;
+justify-content: center;
+}
+.lin {
+    background-color: lightblue;
+   margin: 10px;
+}
+.gmail{
+    background-color: coral;
+    margin: 10px;
+    
+}
+footer { 
+    padding: 25px;
+    font-size: 14px;
+}
