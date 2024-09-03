@@ -1,5 +1,28 @@
+.menu {
+   color:rgba(0, 0, 139);
+   padding: 30px;
+   font-size: 14px;
+   background-color:burlywood;
+}
+.menu:hover {
+    color:rgba(0, 0, 139);
+}
+.menu:visited {
+    color:rgba(0, 0, 139);
+}
+.menu-option {
+    margin: 30px;
+}
+a {
+    text-decoration: none;
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+}
 body {
-    font-family: 'Courier New', Courier, monospace, courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace, courier, monospace; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     width: 65%;
     margin-left: 17.5%;
@@ -9,6 +32,7 @@ body {
 }
 .title {
     font-size: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 .subheading {
@@ -20,31 +44,32 @@ line {
     color: slateblue;
     border-width: 2px;
 }
-button {
+.social {
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Courier New', Courier, monospace, courier, monospace;
+    /*font-family: 'Courier New', Courier, monospace, courier, monospace;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: bold;
-    border-radius: 15%;
-    border-color: black;
-}
-button:hover, a:hover {
-    color: black;
-
-
-}
-.button-group {
-display: flex;
-justify-content: center;
+    border-radius: 5px;
 }
 .lin {
     background-color: lightblue;
    margin: 10px;
+   border-color:blue;
+}
+.lin a:link {
+    color: blue;
 }
 .gmail{
     background-color: coral;
     margin: 10px;
-    
+    border-color:red;
+}
+.gmail a:link {
+    color: red;
+}
+.social a:hover{
+    color: black;
 }
 footer { 
     padding: 25px;
